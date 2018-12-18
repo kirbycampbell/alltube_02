@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/alltube02-20181218103939-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2018-12-18T22:30:35.829Z",
+			"lastPushTimeStamp": "2018-12-18T23:38:00.683Z",
 			"output": {
 				"S3BucketSecureURL": "https://alltube02-20181218104045-hostingbucket.s3.amazonaws.com",
 				"WebsiteURL": "http://alltube02-20181218104045-hostingbucket.s3-website-us-west-2.amazonaws.com",
@@ -37,7 +37,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/alltube02-20181218103939-deployment/amplify-cfn-templates/auth/cognito6b36355f-cloudformation-template.yml",
 				"logicalId": "authcognito6b36355f"
 			},
-			"lastPushTimeStamp": "2018-12-18T22:30:35.835Z",
+			"lastPushTimeStamp": "2018-12-18T23:38:00.684Z",
 			"output": {
 				"AppClientSecret": "ogq75bi916v47gqpr57or1pmb7pii9l6f6oqbnco3c9u243ddrt",
 				"UserPoolId": "us-west-2_Zdw4yIM6E",
@@ -58,7 +58,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/alltube02-20181218103939-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
 				"logicalId": "storages35f5eda15"
 			},
-			"lastPushTimeStamp": "2018-12-18T22:30:35.840Z",
+			"lastPushTimeStamp": "2018-12-18T23:38:00.685Z",
 			"output": {
 				"BucketName": "alltube02ebd2b38e5ea44a268b37d878ce924fca",
 				"Region": "us-west-2"
@@ -83,8 +83,8 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/alltube02-20181218103939-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"logicalId": "apialltube02"
 			},
-			"lastPushTimeStamp": "2018-12-18T22:30:36.536Z",
-			"lastPushDirHash": "/CaAyyrnxmFNpOvaTAZyEqf+e7E="
+			"lastPushTimeStamp": "2018-12-18T23:38:01.924Z",
+			"lastPushDirHash": "1ccrw/Q/U8gWk1JYQlhYCfoH6dM="
 		}
 	}
 }

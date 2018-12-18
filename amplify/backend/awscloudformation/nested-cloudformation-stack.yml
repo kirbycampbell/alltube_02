@@ -162,10 +162,10 @@
 							"Outputs.UserPoolId"
 						]
 					},
-					"schemaGraphql": "s3://alltube02-20181218103939-deployment/amplify-appsync-files/schema.graphql.1545172080789",
+					"schemaGraphql": "s3://alltube02-20181218103939-deployment/amplify-appsync-files/schema.graphql.1545176182193",
 					"ResolverBucket": "alltube02-20181218103939-deployment",
 					"ResolverRootKey": "amplify-appsync-files",
-					"DeploymentTimestamp": "1545172080789"
+					"DeploymentTimestamp": "1545176182193"
 				}
 			}
 		}
