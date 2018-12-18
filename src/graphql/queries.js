@@ -24,3 +24,26 @@ export const listTodos = `query ListTodos(
   }
 }
 `;
+export const getUser = `query GetUser($id: ID!) {
+  getUser(id: $id) {
+    id
+    name
+    date_created
+  }
+}
+`;
+export const listUsers = `query ListUsers(
+  $filter: ModelUserFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUsers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      date_created
+    }
+    nextToken
+  }
+}
+`;

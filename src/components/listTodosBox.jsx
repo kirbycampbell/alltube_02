@@ -14,7 +14,7 @@ class ListTodosBox extends Component {
         <ul>
           {todos.map(todo => (
             <li key={todo.id}>
-              {todo.name} ({todo.description})
+              {todo.id} - {todo.name} --- {todo.description}
             </li>
           ))}
         </ul>
@@ -31,8 +31,12 @@ class ListTodosBox extends Component {
           query={graphqlOperation(queries.listTodos)}
           subscription={graphqlOperation(subscriptions.onCreateTodo)}
           onSubscriptionMsg={(prev, { onCreateTodo }) => {
-            console.log("Subscription data:", onCreateTodo);
-            return prev;
+            let updatedQuery = Object.assign({}, prev);
+            updatedQuery.listTodos.items = prev.listTodos.items.concat([
+              onCreateTodo
+            ]);
+            console.log("Subscription data:", prev);
+            return updatedQuery;
           }}
         >
           {({ data: { listTodos }, loading, error }) => {
