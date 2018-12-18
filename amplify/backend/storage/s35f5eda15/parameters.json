@@ -1,0 +1,9 @@
+{
+    "bucketName": "alltube02ebd2b38e5ea44a268b37d878ce924fca",
+    "authPolicyName": "s3_amplify_5f5eda15",
+    "unauthPolicyName": "s3_amplify_5f5eda15",
+    "authRoleName": "alltube02-20181218103939-authRole",
+    "unauthRoleName": "alltube02-20181218103939-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": "rw"
+}

@@ -1,0 +1,20 @@
+{
+    "projectName": "alltube02",
+    "projectPath": "C:\\Users\\Kfarsa\\Desktop\\code-learning-main-folder\\04_Video_App\\alltube01a\\alltube_02\\alltube_02",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "C:\\Users\\Kfarsa\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "build",
+            "BuildCommand": "npm.cmd run-script build",
+            "StartCommand": "npm.cmd run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "C:\\Users\\Kfarsa\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-provider-awscloudformation"
+    }
+}

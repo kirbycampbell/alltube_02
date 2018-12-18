@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "alltube02",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito6b36355f",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://alltube02-20181218103939-deployment/amplify-appsync-files/schema.graphql.1545159134155",
+    "ResolverBucket": "alltube02-20181218103939-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1545159134155"
+}
